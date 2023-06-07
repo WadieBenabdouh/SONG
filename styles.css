@@ -1,0 +1,28 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('assets/cloud.jpg');
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    flex-direction: column;
+    border: 1px solid rgb(100, 31, 109);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #aeaeb3;
+}
+
+footer p {
+    color: #d1bebe;
+}
