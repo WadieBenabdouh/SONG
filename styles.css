@@ -14,7 +14,8 @@ body {
     align-items: center;
     gap: 5em;
     flex-direction: column;
-    border: 1px solid rgb(100, 31, 109);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
